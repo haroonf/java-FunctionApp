@@ -50,5 +50,5 @@ steps:
     appType: 'functionApp'
     appName: 'java-func-app-prod'
     package: '$(build.artifactstagingdirectory)'
-    appSettings: $(PRODAPPSETTINGS)
+    appSettings: '$(PRODAPPSETTINGS)'
     deploymentMethod: 'auto'
