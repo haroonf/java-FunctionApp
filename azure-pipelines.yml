@@ -43,3 +43,4 @@ steps:
     appName: 'java-func-app'
     package: '$(build.artifactstagingdirectory)'
     appSettings: '-ConnectionString "host:qadb;port:1234;db:qa;password:qwerty"'
+    deploymentMethod: 'auto'
